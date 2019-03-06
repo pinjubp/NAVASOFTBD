@@ -1,0 +1,100 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  @include body-font;
+}
+
+// Custom Button Size
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+ .primary-button {
+  display: inline-block;
+  background-color: $bar;
+  padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: fade-out($navbar, .1);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+} 
+
+// Scroll to top button
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+
+  display: none;
+ 
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+
+  color: white;
+  background: fade-out($gray-800, .5);
+
+  line-height: 45px;
+  &:focus,
+  &:hover {
+    color: white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  i {
+	font-weight: 800;
+	font-size:50px;
+	color:$bar;
+  }
+}
+
+
+
+// Content Section
+.content-section {
+	background: fade-out($navbar, .1);
+	padding-top:10vh;
+	padding-bottom:10vh;		
+	color: $navbar;
+	box-shadow: 3px 3px 3px $black; 
+  
+  hr{
+	background:$bar;
+  }	
+  
+  h2 {
+    font-size:$heading-font-size;
+	color:$bar;
+	text-transform: uppercase;
+  }
+  h3 {
+    font-size: 1rem;
+	color:$bar;
+    text-transform: uppercase;
+  }
+  p{
+	color:$bar;
+	padding-bottom:20px;
+  } 
+}

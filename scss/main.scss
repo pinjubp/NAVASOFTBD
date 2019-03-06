@@ -1,0 +1,23 @@
+/*navasoft bootstrap sass theme 
+auther:muhammad neamul mowla
+version: 0.0.1
+*/
+
+/* BASE - base style,variables,mixins etc */
+@import 'base/_normalize.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+
+
+
+ /* LAYOUTS - page layout style */
+
+@import 'layouts/_header.scss';
+@import 'layouts/_nav.scss';
+@import 'layouts/_footer.scss';
+//@import 'layouts/media.scss';
+
+/* MODULES - individual site components */
+
+@import 'modules/_sections.scss';

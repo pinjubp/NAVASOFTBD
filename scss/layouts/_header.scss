@@ -1,0 +1,63 @@
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/hd-wallpaper-ivy-leaves-207301.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+}
+header{
+  height: 65px; 
+  line-height: 65px;
+   //background:url(../img/navbg.png) repeat;	   
+	background: fade-out($navbar, .1);
+	box-shadow: 3px 3px 3px $black;
+	width:100%; 
+	display:block;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+ .mobilelogo{
+	width:50px;
+	height:50px;
+	margin-top:5px;
+	display:block;
+	position:absolute;
+	left:49%;
+	top:0;
+	z-index:1;
+}
+
+#home .content-section{
+	width:40%;
+}
+
+@media (max-width: 1024px) {
+	#home .content-section{
+	width:80%;
+}
+}
+@media (max-width: 768px) {
+	#home .content-section{
+	width:80%;
+}
+}
